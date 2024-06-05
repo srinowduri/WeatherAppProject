@@ -1,0 +1,173 @@
+[debug] [2024-06-04T20:24:41.108Z] ----------------------------------------------------------------------
+[debug] [2024-06-04T20:24:41.109Z] Command:       /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/node /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/firebase init
+[debug] [2024-06-04T20:24:41.109Z] CLI Version:   12.9.1
+[debug] [2024-06-04T20:24:41.109Z] Platform:      darwin
+[debug] [2024-06-04T20:24:41.109Z] Node Version:  v16.13.2
+[debug] [2024-06-04T20:24:41.110Z] Time:          Tue Jun 04 2024 15:24:41 GMT-0500 (Central Daylight Time)
+[debug] [2024-06-04T20:24:41.110Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-04T20:24:41.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-04T20:24:41.112Z] > authorizing via signed-in user (nowduribtv@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/srilaxminowduri/Learning Workspace/WeatherAppProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-06-04T20:25:54.856Z] > refreshing access token with scopes: []
+[debug] [2024-06-04T20:25:54.857Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-04T20:25:54.857Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-04T20:25:55.052Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-04T20:25:55.052Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-04T20:25:55.066Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-06-04T20:25:55.066Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"sn-weatherApp-06/2024","name":"WeatherAppProject"}
+[debug] [2024-06-04T20:25:55.274Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-06-04T20:25:55.274Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-06-04T20:25:55.388Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-06-04T20:36:19.144Z] ----------------------------------------------------------------------
+[debug] [2024-06-04T20:36:19.145Z] Command:       /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/node /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/firebase init
+[debug] [2024-06-04T20:36:19.145Z] CLI Version:   12.9.1
+[debug] [2024-06-04T20:36:19.145Z] Platform:      darwin
+[debug] [2024-06-04T20:36:19.146Z] Node Version:  v16.13.2
+[debug] [2024-06-04T20:36:19.150Z] Time:          Tue Jun 04 2024 15:36:19 GMT-0500 (Central Daylight Time)
+[debug] [2024-06-04T20:36:19.150Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-04T20:36:19.153Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-04T20:36:19.153Z] > authorizing via signed-in user (nowduribtv@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/srilaxminowduri/Learning Workspace/WeatherAppProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-06-04T20:37:20.623Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-06-04T20:37:20.624Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"LV-WeatherApp","name":"WeatherAppProject"}
+[debug] [2024-06-04T20:37:20.862Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-06-04T20:37:20.862Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-06-04T20:37:21.015Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-06-04T20:37:58.021Z] ----------------------------------------------------------------------
+[debug] [2024-06-04T20:37:58.021Z] Command:       /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/node /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/firebase init
+[debug] [2024-06-04T20:37:58.022Z] CLI Version:   12.9.1
+[debug] [2024-06-04T20:37:58.022Z] Platform:      darwin
+[debug] [2024-06-04T20:37:58.022Z] Node Version:  v16.13.2
+[debug] [2024-06-04T20:37:58.023Z] Time:          Tue Jun 04 2024 15:37:58 GMT-0500 (Central Daylight Time)
+[debug] [2024-06-04T20:37:58.023Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-04T20:37:58.026Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-04T20:37:58.026Z] > authorizing via signed-in user (nowduribtv@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/srilaxminowduri/Learning Workspace/WeatherAppProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-06-04T20:40:13.571Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-06-04T20:40:13.572Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"LV-app","name":"WeatherAppProject"}
+[debug] [2024-06-04T20:40:13.737Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-06-04T20:40:13.737Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-06-04T20:40:13.849Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/apiv2.js:285:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-06-05T19:23:45.522Z] ----------------------------------------------------------------------
+[debug] [2024-06-05T19:23:45.523Z] Command:       /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/node /Users/srilaxminowduri/.nvm/versions/node/v16.13.2/bin/firebase init
+[debug] [2024-06-05T19:23:45.524Z] CLI Version:   12.9.1
+[debug] [2024-06-05T19:23:45.524Z] Platform:      darwin
+[debug] [2024-06-05T19:23:45.524Z] Node Version:  v16.13.2
+[debug] [2024-06-05T19:23:45.528Z] Time:          Wed Jun 05 2024 14:23:45 GMT-0500 (Central Daylight Time)
+[debug] [2024-06-05T19:23:45.528Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-05T19:23:45.530Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-05T19:23:45.530Z] > authorizing via signed-in user (nowduribtv@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/srilaxminowduri/Learning Workspace/WeatherAppProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-06-05T19:26:23.202Z] > refreshing access token with scopes: []
+[debug] [2024-06-05T19:26:23.204Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-05T19:26:23.204Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-05T19:26:23.405Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-05T19:26:23.405Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-05T19:26:23.421Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-06-05T19:26:23.421Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"wea-app-ther","name":"WeatherAppProject"}
+[debug] [2024-06-05T19:26:23.810Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-06-05T19:26:23.811Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7202529761164614754"}
+[debug] [2024-06-05T19:26:23.812Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7202529761164614754 [none]
+[debug] [2024-06-05T19:26:24.422Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7202529761164614754 200
+[debug] [2024-06-05T19:26:24.422Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7202529761164614754 {"name":"operations/cp.7202529761164614754","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2024-06-05T19:26:24.566Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.poll (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/operation-poller.js:24:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async createCloudProject (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/management/projects.js:186:29)
+    at async createFirebaseProjectAndLog (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/management/projects.js:45:9)
+    at async promptAndCreateNewProject (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/init/features/project.js:32:12)
+    at async doSetup (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/init/features/project.js:88:27)
+    at async init (/Users/srilaxminowduri/.nvm/versions/node/v16.13.2/lib/node_modules/firebase-tools/lib/init/index.js:41:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
